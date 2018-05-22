@@ -4,6 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Important Links
 https://medium.com/codingthesmartway-com-blog/angular-material-part-4-data-table-23874582f23a
+https://stackoverflow.com/questions/47206924/angular-5-service-to-read-local-json-file
 
 ## Development server
 
