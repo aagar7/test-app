@@ -4,6 +4,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { MatTableModule } from '@angular/material';
 import { UserService } from './services/user.service';
+
+
 @NgModule({
   declarations: [
     AppComponent
@@ -16,4 +18,5 @@ import { UserService } from './services/user.service';
   providers: [UserService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

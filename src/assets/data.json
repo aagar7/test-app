@@ -1,0 +1,28 @@
+{
+  "Columns": [{
+      "name": "a",
+      "sortable": false,
+      "filterable": true,
+      "type": "int"
+    },
+    {
+      "name": "b",
+      "sortable": false,
+      "filterable": true,
+      "type": "int"
+    },
+    {
+      "name": "c",
+      "sortable": false,
+      "filterable": true,
+      "type": "int"
+    }
+  ],
+  "Data": [
+    [0, 2, 3],
+    [1, 3, 4],
+    [2, 4, 5],
+    [3, 5, 6],
+    [4, 6, 7]
+  ]
+}
