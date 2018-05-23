@@ -7,15 +7,14 @@ import { UserService } from './services/user.service';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'My App';
   testObject;
-  constructor(private userService: UserService) { }
 
-ngOnInit() {
-   this.userService.getJSON().subscribe(data => {
-        console.log(data);
-        this.testObject = data;
+  constructor(private userService: UserService) {
+    this.userService.getJSON().subscribe(data => {
+      this.testObject = data;
     });
-}
+  }
+
 }
